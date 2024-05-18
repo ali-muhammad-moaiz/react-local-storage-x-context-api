@@ -1,3 +1,3 @@
-import {DataContext, DataContextProvider, useData} from "./DataContext";
+import {DataContextProvider, useData} from "./DataContext";
 
 export {useData, DataContextProvider};
