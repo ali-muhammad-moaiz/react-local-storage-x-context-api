@@ -9,7 +9,8 @@ function TextForm() {
         event.preventDefault();
         var todoNote = {
             id: Date.now(),
-            todoMsg: todoMsg
+            todoMsg: todoMsg,
+            checked: false
         };
         setTodosList((existingTodosList) => [...existingTodosList, todoNote]);
         setTodoMsg('');
